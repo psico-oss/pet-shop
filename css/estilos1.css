@@ -1,0 +1,50 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background:url("../imagenes/fondo.png");
+	background-attachment:fixed,scroll;
+}
+.contenedor{
+	width: 100%;
+	max-width: 1000px;
+    background: rgba(255,255,255,0.2);
+    margin:0 auto;
+
+}
+.l{ 
+	width:100%;
+    display:flex;
+   padding:15px;}
+.subsubcaja{
+    color:skyblue;
+	font-weight: bold;
+    border: 3px skyblue outset;
+	width:100%;
+	padding:10px;
+	background:white;
+	flex-grow:5;
+	box-sizing:border-box;
+}
+.subcaja1{
+	width:50%;
+	text-align:center;
+}
+.color{ 
+	background: rgba(255,255,255,0.1);
+ }
+.boton{
+	
+}
+h1{
+	font-family: tahoma;
+	color:black;
+	margin:10px;
+	font-size:2em;
+}
+label{
+
+	font-size: 1em;
+}

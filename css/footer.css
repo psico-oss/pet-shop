@@ -1,0 +1,57 @@
+footer{
+	box-sizing:border-box;
+	padding: 20px;
+	background:rgb(135,206,235,0.9);
+	width:100%;
+	box-sizing:border-box;
+	font-family: tahoma;
+}
+.todo{
+	display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+.ubicacion{ 
+    width:25%;
+    text-align:center;
+    box-sizing:border-box;	
+    
+}
+.telefono{
+    width:25%;
+    text-align:center;	
+	box-sizing:border-box;	
+}
+.mail{
+	width:25%;
+	text-align:center;
+	box-sizing:border-box;		
+}
+.redes{
+	text-align:center;
+	width:25%;
+	border: 2.5px white dashed;
+	box-sizing:border-box;	
+}
+img.pequeña{
+	width:50px;
+	height:50px; 
+}
+@media (max-width:800px){
+	.a img{
+		display: none;
+	}
+	.color {
+    	width: 100%;
+	}
+	.todo{
+		display:flex;
+	    flex-direction:column;
+	    padding: 0;
+	}
+	.ubicacion, .telefono, .mail, .redes{
+	    padding: 20px 0;
+	    width: auto;
+	}
+
+}

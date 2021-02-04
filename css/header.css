@@ -1,0 +1,12 @@
+
+header {
+	text-align: center;
+	padding:20px;
+}
+
+
+header img.logo{
+    
+	min-width: 100px;
+	max-width: 150px;
+	}
